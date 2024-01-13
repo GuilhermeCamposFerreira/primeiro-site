@@ -1,2 +1,3 @@
-assets
-*.exe
+*.env
+*.sql
+assets/foto.jpeg

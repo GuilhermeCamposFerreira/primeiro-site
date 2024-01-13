@@ -1,0 +1,98 @@
+/* O restante do CSS permanece o mesmo */
+
+:root{
+    --text-color:white; /*Criando variável text-color*/
+    --bg-url: url(./assets/bg-mobile.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.1);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --hightlight-color: rgba(255, 255, 255, 0.2);
+    --switch-bg-url: url(./assets/moon-stars.svg);
+}
+
+/*classe light da tag html*/
+.light{
+    --text-color: black;
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-hover: rgba(255, 255, 255, 0.05);
+    --hightlight-color: rgba(0, 0, 0, 0.1);
+    --switch-bg-url: url(./assets/sun.svg);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-url) no-repeat top
+    center/cover;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* O restante do CSS permanece o mesmo */
+
+/* O restante do CSS permanece o mesmo */
+
+/* O restante do CSS permanece o mesmo */
+
+.image-container {
+    width: 470px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.image-bg {
+    background-color: #ddd; /* Cor de fundo desejada */
+    border-radius: 8px; /* Raio de borda suave para o fundo */
+    overflow: hidden; /* Garante que o fundo nÃ£o ultrapasse a borda */
+}
+
+img {
+    max-width: 450px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+button {
+    margin: 15px 10px;
+    padding: 5px 10px;
+    background-color: #743392;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+p {
+    padding: 0px;
+    margin-top: 10px;
+    color: white
+
+}
+
